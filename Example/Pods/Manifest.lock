@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MCopManager (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MCopManager (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MCopManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MCopManager: cda5e93d263bae1b970ad5d705cd039c1e9491e1
+
+PODFILE CHECKSUM: 2e1ba62c5e5a97c42ca36ca1361cce6188dda916
+
+COCOAPODS: 1.9.3

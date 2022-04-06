@@ -1,0 +1,6 @@
+framework module MCopManager {
+  umbrella header "MCopManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
